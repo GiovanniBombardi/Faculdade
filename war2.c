@@ -163,6 +163,7 @@ int main() {
                    territorios[ataque - 1].nome, territorios[ataque - 1].tropas,
                    territorios[defesa - 1].nome, territorios[defesa - 1].tropas);
         }
+    }
 
     // libera memoria alocada
     free(territorios);
@@ -174,6 +175,8 @@ int main() {
 
     return 0;
 }
+
+
 
 
 
