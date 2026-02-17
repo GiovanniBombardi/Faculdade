@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include <string.h>
 
 // Constantes globais
@@ -90,5 +91,7 @@ int main() {
                         break;
             }
     } while (opcao != 0);
+
+    free(territorios); // Libera a memória alocada para os territórios
     return 0;
 }
