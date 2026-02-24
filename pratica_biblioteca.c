@@ -115,7 +115,7 @@ void exibirMenu() {
 void cadastrarLivro(struct Livro *biblioteca, int *totalLivros) {
     printf("\n=== Cadastro de Livro ===\n");
 
-    if (*totalLivros >= MAX_LIVROS) {
+    if (*totalLivros < MAX_LIVROS) {
         int indice = *totalLivros; // Usa o valor apontado pelo ponteiro para o indice
 
         printf("Digite o nome do livro: ");
